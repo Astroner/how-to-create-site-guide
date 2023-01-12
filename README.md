@@ -1,8 +1,6 @@
 # How to create web-app from scratch to production
 Here I describe my experience in building web applications.
 
-## Table of content
-
 ## Steps
  - Write an app. It can consist of a single service or several ones, backend and frontend for example.
  - Buy a VPS with public ip or just obtain public ip.
