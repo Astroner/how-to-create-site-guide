@@ -37,9 +37,10 @@ Here I describe my experience in building web applications.
  Now you can make requests to your domains and check that everything is fine.
  - Configure nginx SSL/HTTPs. 
  [Get more info here](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04).
-   - Install certbot and python3-certbot-nginx. This package will do most of the work.
+   - Install certbot and python3-certbot-nginx. These packages will do most of the work.
    - run `certbot --nginx -d example.com -d www.example.com` for each service. For example:
      - `certbot --nginx -d frontend.domain.com -d www.frontend.domain.com`
      - `certbot --nginx -d backend.domain.com -d www.backend.domain.com`
  - That's all
-We started with nothing and finished with fully operationg web-app.
+ 
+ We started with nothing and finished with fully operating web-app.
